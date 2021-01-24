@@ -1,0 +1,39 @@
+{
+  "mailbox": "ostap@domain.com",
+  "category_keywords": {
+    "Hiring": [
+      "Technical Qualifying Screen",
+      "Architecture/Design - ",
+      "Project Discussion - ",
+      "Debrief"
+    ],
+    "1:1": [
+      "Ostap / ",
+      " / Ostap",
+      "/Ostap",
+      "Ostap/",
+      "Ostap <> ",
+      " <> Ostap",
+      "<>Ostap",
+      "Ostap<>",
+      " : Ostap",
+      "Ostap : "
+    ],
+    "Team": [
+      "Grooming",
+      "Planning",
+      "Retro"
+    ],
+    "Cross-org": [
+      "Cross-team"
+    ],
+    "All Hands": [
+      "All Hands"
+    ],
+    "Personal": [
+      "Lunch ",
+      "busy",
+      "Busy"
+    ]
+  }
+}
