@@ -1,3 +1,5 @@
+import datetime
+
 from utils.auto_str import auto_str
 
 
@@ -16,6 +18,10 @@ class CalendarEvent:
 
     def day_str(self):
         return self.start_time.strftime('%Y-%m-%d')
+
+    def week_str(self):
+        prev_monday = self.start_time - datetime.timedelta(days=self.start_time.weekday())
+        return prev_monday.strftime('%Y-%m-%d')
 
     def __repr__(self):
         return self.__str__()

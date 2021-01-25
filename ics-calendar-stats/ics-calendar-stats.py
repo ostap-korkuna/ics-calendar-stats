@@ -21,6 +21,12 @@ def parse_args():
     parser.add_argument('--csv', action='store_true',
                         dest='csv', default=False, required=False,
                         help='Export summary in csv')
+    parser.add_argument('--weekly', action='store_true',
+                        dest='weekly', default=False, required=False,
+                        help='In CSV export weekly statistics instead of daily')
+    parser.add_argument('--hours', action='store_true',
+                        dest='hours', default=False, required=False,
+                        help='In CSV export data in hours instead of minutes')
 
     args = parser.parse_args()
 

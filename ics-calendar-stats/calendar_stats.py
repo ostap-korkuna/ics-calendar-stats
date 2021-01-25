@@ -44,7 +44,7 @@ class CalendarStats:
         events = self.load_events()
         report = self.generate_report(events, config)
         if self.args.csv:
-            report.print_daily_summary_csv()
+            report.print_summary_csv()
             pass
         else:
             report.print_events()
